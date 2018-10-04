@@ -18,6 +18,7 @@ public class Sample {
         System.out.println(result);
         //how much work? 8 units work
 
+        System.out.println("Java 8 results:");
         System.out.println(
                 numbers.stream() //  vv
                         .filter(Sample::isGT3)
